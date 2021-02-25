@@ -13,6 +13,7 @@
 		1810073725E6F5E10086725F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810073525E6F5E10086725F /* LaunchScreen.storyboard */; };
 		1810074225E6F5E10086725F /* MySpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810074125E6F5E10086725F /* MySpotifyTests.swift */; };
 		1810074D25E6F5E10086725F /* MySpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810074C25E6F5E10086725F /* MySpotifyUITests.swift */; };
+		1823F42425E83D7A00F2AA35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823F42325E83D7A00F2AA35 /* Extensions.swift */; };
 		188915E225E6F75F00BA8B79 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915E125E6F75F00BA8B79 /* TabBarViewController.swift */; };
 		188915E725E6F77D00BA8B79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915E625E6F77D00BA8B79 /* HomeViewController.swift */; };
 		188915EC25E6F79600BA8B79 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915EB25E6F79600BA8B79 /* SearchViewController.swift */; };
@@ -63,6 +64,7 @@
 		1810074825E6F5E10086725F /* MySpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1810074C25E6F5E10086725F /* MySpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpotifyUITests.swift; sourceTree = "<group>"; };
 		1810074E25E6F5E10086725F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823F42325E83D7A00F2AA35 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		188915E125E6F75F00BA8B79 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		188915E625E6F77D00BA8B79 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		188915EB25E6F79600BA8B79 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				1810072A25E6F5E00086725F /* AppDelegate.swift */,
 				1810072C25E6F5E00086725F /* SceneDelegate.swift */,
 				1810073325E6F5E10086725F /* Assets.xcassets */,
+				1823F42325E83D7A00F2AA35 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				188915F125E6F7AE00BA8B79 /* LibraryViewController.swift in Sources */,
 				1810072B25E6F5E00086725F /* AppDelegate.swift in Sources */,
 				1889166225E6F97000BA8B79 /* UserProfile.swift in Sources */,
+				1823F42425E83D7A00F2AA35 /* Extensions.swift in Sources */,
 				1889161725E6F83900BA8B79 /* PlaylistViewController.swift in Sources */,
 				1889165D25E6F96400BA8B79 /* Artist.swift in Sources */,
 				1810072D25E6F5E00086725F /* SceneDelegate.swift in Sources */,
@@ -486,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -541,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
