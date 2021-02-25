@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let window = UIWindow(frame: UIScreen.main.bounds)
         
-        if AuthManager.shared.isSsignedIn {
+        if AuthManager.shared.isSignedIn {
             window.rootViewController = TabBarViewController()
         } else {
             let navVC = UINavigationController(rootViewController: WelcomeViewController())
@@ -28,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         window.makeKeyAndVisible()
         self.window = window
+        AuthManager.shared.refreshIfNeeded { success in
+            print(success)
+        }
         return true
     }
 

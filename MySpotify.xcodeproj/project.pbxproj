@@ -14,6 +14,7 @@
 		1810074225E6F5E10086725F /* MySpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810074125E6F5E10086725F /* MySpotifyTests.swift */; };
 		1810074D25E6F5E10086725F /* MySpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810074C25E6F5E10086725F /* MySpotifyUITests.swift */; };
 		1823F42425E83D7A00F2AA35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823F42325E83D7A00F2AA35 /* Extensions.swift */; };
+		1823F42F25E8546200F2AA35 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823F42E25E8546200F2AA35 /* AuthResponse.swift */; };
 		188915E225E6F75F00BA8B79 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915E125E6F75F00BA8B79 /* TabBarViewController.swift */; };
 		188915E725E6F77D00BA8B79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915E625E6F77D00BA8B79 /* HomeViewController.swift */; };
 		188915EC25E6F79600BA8B79 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188915EB25E6F79600BA8B79 /* SearchViewController.swift */; };
@@ -65,6 +66,7 @@
 		1810074C25E6F5E10086725F /* MySpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpotifyUITests.swift; sourceTree = "<group>"; };
 		1810074E25E6F5E10086725F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1823F42325E83D7A00F2AA35 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1823F42E25E8546200F2AA35 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		188915E125E6F75F00BA8B79 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		188915E625E6F77D00BA8B79 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		188915EB25E6F79600BA8B79 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				1889165725E6F95B00BA8B79 /* AudioTrack.swift */,
 				1889165C25E6F96400BA8B79 /* Artist.swift */,
 				1889166125E6F97000BA8B79 /* UserProfile.swift */,
+				1823F42E25E8546200F2AA35 /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				188915E725E6F77D00BA8B79 /* HomeViewController.swift in Sources */,
 				188915E225E6F75F00BA8B79 /* TabBarViewController.swift in Sources */,
 				1889162B25E6F8A500BA8B79 /* HapticsManager.swift in Sources */,
+				1823F42F25E8546200F2AA35 /* AuthResponse.swift in Sources */,
 				1889165825E6F95B00BA8B79 /* AudioTrack.swift in Sources */,
 				188915FE25E6F7EE00BA8B79 /* AuthViewController.swift in Sources */,
 				188915F125E6F7AE00BA8B79 /* LibraryViewController.swift in Sources */,
